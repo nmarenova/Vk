@@ -11,8 +11,8 @@ public class Post {
     Image image;
     String video;
     LikesInfo likesInfo;
-    int commentNumber;
-    int repostNumber;
+    CommentsInfo CommentsInfo;
+    RepostsInfo RepostsInfo;
     int viewsNumber;
     boolean friendsOnly;
     String copyrightName;

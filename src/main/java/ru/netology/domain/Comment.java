@@ -11,5 +11,5 @@ public class Comment {
     String image;
     String video;
     LikesInfo likesInfo;
-    int commentNumber;
+    CommentsInfo CommentsInfo;
 }

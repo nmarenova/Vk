@@ -9,8 +9,8 @@ public class Image {
     String dateTime;
     String image;
     LikesInfo likesInfo;
-    int commentNumber;
-    int repostNumber;
+    CommentsInfo CommentsInfo;
+    RepostsInfo RepostsInfo;
     boolean friendsOnly;
     String geoCoordinates;
     String geoPlace;

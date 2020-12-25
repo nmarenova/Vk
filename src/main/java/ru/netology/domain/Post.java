@@ -8,9 +8,9 @@ public class Post {
     String authorLink;
     String text;
     String dateTime;
-    String image;
+    Image image;
     String video;
-    int likeNumber;
+    LikesInfo likesInfo;
     int commentNumber;
     int repostNumber;
     int viewsNumber;

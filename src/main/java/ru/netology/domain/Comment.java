@@ -10,6 +10,6 @@ public class Comment {
     String dateTime;
     String image;
     String video;
-    int likeNumber;
+    LikesInfo likesInfo;
     int commentNumber;
 }

@@ -8,7 +8,7 @@ public class Image {
     String authorLink;
     String dateTime;
     String image;
-    int likeNumber;
+    LikesInfo likesInfo;
     int commentNumber;
     int repostNumber;
     boolean friendsOnly;

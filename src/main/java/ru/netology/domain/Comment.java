@@ -1,6 +1,8 @@
 package ru.netology.domain;
 
 public class Comment {
+    int id;
+    int authorId;
     String authorName;
     String authorAvatar;
     String authorLink;
@@ -9,4 +11,5 @@ public class Comment {
     String image;
     String video;
     int likeNumber;
+    int commentNumber;
 }

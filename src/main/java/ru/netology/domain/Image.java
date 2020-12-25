@@ -1,6 +1,8 @@
 package ru.netology.domain;
 
 public class Image {
+    int id;
+    int authorId;
     String authorName;
     String authorAvatar;
     String authorLink;
@@ -9,4 +11,8 @@ public class Image {
     int likeNumber;
     int commentNumber;
     int repostNumber;
+    boolean friendsOnly;
+    String geoCoordinates;
+    String geoPlace;
+    boolean isFavorite;
 }
